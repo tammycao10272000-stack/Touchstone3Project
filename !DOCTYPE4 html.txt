@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Jacksonville Animal Rescue - Events & Contact</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Jacksonville Animal Rescue</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="services.html">Services & Adoption</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="events.html">Events & Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Contact Us & Volunteer Registration</h2>
+            <p>Want to adopt, foster, or volunteer at our Jacksonville shelter? Fill out the form below!</p>
+
+            <form action="#" method="POST">
+                <fieldset>
+                    <legend>Personal Information</legend>
+                    
+                    <label for="fullname">Full Name:</label>
+                    <input type="text" id="fullname" name="fullname" required>
+
+                    <label for="email">Email Address:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="phone">Phone Number:</label>
+                    <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="123-456-7890">
+                </fieldset>
+
+                <fieldset>
+                    <legend>Inquiry Type</legend>
+                    <label for="inquiry">I am interested in:</label>
+                    <select id="inquiry" name="inquiry">
+                        <option value="adopt">Adopting a Pet</option>
+                        <option value="foster">Fostering</option>
+                        <option value="volunteer">Volunteering</option>
+                    </select>
+                </fieldset>
+
+                <button type="submit">Submit Request</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2026 Jacksonville Animal Rescue. All rights reserved.</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Jacksonville Animal Rescue - Services</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Jacksonville Animal Rescue</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="services.html">Services & Adoption</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="events.html">Events & Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Adoption & Community Services</h2>
+            <p>Explore our adoption process, low-cost spay/neuter programs, and pet training resources.</p>
+            
+            <picture>
+                <source media="(min-width: 800px)" srcset="images/pets-large.jpg">
+                <img src="images/pets-small.jpg" alt="Various cats and dogs looking up expectantly">
+            </picture>
+        </section>
+        <section>
+            <h3>Hear From Our Pet Families</h3>
+            <audio controls>
+                <source src="media/success-story.mp3" type="audio/mpeg">
+                Your browser does not support the audio element. <a href="media/success-story.mp3">Download the audio file</a> to listen to an adopter success story.
+            </audio>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2026 Jacksonville Animal Rescue. All rights reserved.</p>
+    </footer>
+</body>
+</html>

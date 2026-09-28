@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Jacksonville Animal Rescue - Home</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Jacksonville Animal Rescue</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="services.html">Services & Adoption</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="events.html">Events & Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Find Your New Best Friend</h2>
+            <p>Welcome to Jacksonville Animal Rescue. We are dedicated to matching loving families with pets in need across Northeast Florida.</p>
+            <img src="images/happy-dog.jpg" alt="A golden retriever smiling happily at the Jacksonville adoption center">
+        </section>
+        <section>
+            <figure>
+                <img src="images/shelter-yard.jpg" alt="Dogs playing in a large fenced outdoor yard">
+                <figcaption>Our spacious play yards give shelter animals room to run and socialize.</figcaption>
+            </figure>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2026 Jacksonville Animal Rescue. All rights reserved.</p>
+    </footer>
+</body>
+</html>
